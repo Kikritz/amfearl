@@ -33,10 +33,10 @@ python3 exp.py -exp INT -t INT -p STR -r INT
 * `-r`: Integer. 1 (default) for random reinitialization 0 for fixed reinitialization.
 
 ```bash
-# Example: Running Fixed MT-10
+# Example: Running Fixed MT-10 with 8 threads
 python3 exp.py -exp 1 -t 8 -p MT-10-F -r 0
-# Example: Running Random MT-50
-python3 exp.py -exp 2 -t 12 -p MT-50-R
+# Example: Running Random MT-10 with 12 threads
+python3 exp.py -exp 1 -t 12 -p MT-10-R
 ```
 
 # Citing A-MFEA-RL [(Link to the paper)](https://scholar.google.es/scholar?hl=es&as_sdt=0%2C5&q=Adaptive+Multi-factorial+Evolutionary+Optimization+for+Multi-task+Reinforcement+Learning&btnG=)
